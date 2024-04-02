@@ -1,6 +1,6 @@
 # Nwigwe-Forever
 
-![This is our introduction picture](Introduction.png)
+![This is our introduction picture](Introduction.svg)
 My husband and I did our court wedding in June 2022. We are excited to have are family and friends over in Togo in December 2025 to celebrate our traditional and religious wedding. We want our guests to have access to all the information they need to have a get to Togo on time and have an epic time. 
 
 ## Objectives
@@ -10,25 +10,22 @@ We want to provide a seamless experience for the guests. There will be many movi
 
 ## Wireframe
 Here is our welcome and home page
-![Welcome and homepage](Welcomeandhomepage.svg)
+![Welcome and homepage](Welcomeandhome.svg)
 
-On this page, guest will be able to see the schedule of all events. 
-![The week ahead](theweekahead.png)
-
-On this page, guests will get the information they need about the main event. 
-![The celebration page](Thecelebration.png)
+On these pages, guest will be able to see the schedule of all events. 
+![The week ahead](Celebrationandschedule.svg)
 
 On this page, guests will see a brief description of the weeding party. 
-![Wedding party](Weddingparty.png)
+![Wedding party](Weddingparty.svp)
 
 On this page, guests will be able to access the lodging and travel informations. 
-![Travel and Lodging](TravelandLodging.png)
+![Travel and Lodging](Travelandlodging.svg)
 
 On this page, guests will see the lists of things they can do when they are not with us. 
-![Things To Do](thingstodo.png)
+![Things To Do](thingstodo.svg)
 
 On this page, guests will be to RSVP. 
-![RSVP Page](RSVPPage.png)
+![RSVP Page](RSVPPage.svg)
 
 ## Components Diagram 
 ## ERD 
