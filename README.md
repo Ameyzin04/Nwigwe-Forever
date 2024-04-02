@@ -10,7 +10,7 @@ We want to provide a seamless experience for the guests. There will be many movi
 
 ## Wireframe
 Here is our welcome and home page
-![Welcome and homepage](Welcomeandhomepage.png)
+![Welcome and homepage](Welcomeandhomepage.svg)
 
 On this page, guest will be able to see the schedule of all events. 
 ![The week ahead](theweekahead.png)
