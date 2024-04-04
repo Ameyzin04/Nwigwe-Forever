@@ -1,11 +1,13 @@
+import '../styles/welcome.css'
+
 export default function Welcome () {
     return (
-        <div className="home">
+        <div className="welcome">
             <div className="firstPage">
-            <h1>Christian Nwigwe & Ameyo Kugbe</h1>
+            <h1>Christian Nwigwe <br/>& <br/> Ameyo Kugbe</h1>
             <h2>#NwigweForever</h2>
-            <h3>December 20,2025</h3>
-            <h4>Lomé, Togo</h4>
+            <h3>December 20, 2025</h3>
+            <h3>Lomé, Togo</h3>
             </div>
         <div className="howwemet">
            <h2>How We Met</h2>

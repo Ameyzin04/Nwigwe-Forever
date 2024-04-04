@@ -6,7 +6,7 @@ export default function WeddingParty () {
     return (
         <div className="weddingParty">
             <h1>Wedding Party</h1>
-            <h3>Meet our family and friends who will be walking down the aisle with us</h3>
+            <h3>Meet our family and friends who will be walking down the aisle with us.</h3>
 
         <div className= "mcard">
             <img src="../../images/Mike .png" alt="profile pic" id= "picture"></img>

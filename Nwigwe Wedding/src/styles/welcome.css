@@ -7,28 +7,28 @@ body {
   margin: 5px;
 }
 
-.home {
+.welcome h1 {
   font-family: Tangerine;
-  font-size: 36px;
+  font-size: 72px;
   color: #7e4847;
   text-align: center;
-  padding: 0px;
 }
 
-#together {
-  height: 300px;
-  width: 300px;
-  border-radius: 10px;
-  align-items: center;
-  margin: 50px 50px 10px 50px;
-}
-
-#button {
+.welcome h2 {
   font-family: Ibarra Real Nova;
-  font-size: 28px;
+  color: #ffbd59;
+  text-align: center;
+}
+
+.welcome h3 {
+  font-family: Ibarra Real Nova;
   color: #7e4847;
-  margin-bottom: 20px;
-  background: transparent;
-  border-radius: 8px;
-  border: 1px solid #7e4847;
-}/*# sourceMappingURL=home.css.map */
+  text-align: center;
+}
+
+.welcome p {
+  margin: 5px;
+  padding: 10px;
+  font-family: Ibarra Real Nova;
+  color: #7e4847;
+}/*# sourceMappingURL=welcome.css.map */
