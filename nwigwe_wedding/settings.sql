@@ -1,0 +1,3 @@
+CREATE DATABASE nwigwe;
+CREATE USER nwigweuser WITH PASSWORD 'nwigwe';
+GRANT ALL PRIVILEGES ON DATABASE nwigwe TO nwigweuser;
