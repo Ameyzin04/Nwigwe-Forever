@@ -2,9 +2,10 @@ import { Link } from 'react-router-dom'
 
 
 export default function NavBar () {
+
     return (
         <div className="NavBar">
-            <Link to='/'>Home</Link>
+           <Link to='/'>Home</Link>
            <Link to='/Welcome'>Welcome</Link>
            <Link to='/WeekAhead'>Week Ahead</Link>
            <Link to='/Celebration'>Celebration</Link>

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Homenaje&family=Tangerine:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Homenaje&family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Tangerine:wght@400;700&display=swap");
+
+$myTitleFont: Tangerine;
+$myColor: #7e4847;
+$myTitleFontSize: 36px;
+$myBackgroud: url(../../images/Christian&Ameyo.svg);
+$myBackgroundColor: #fffdf5;
+$myMainFont: Ibarra Real Nova;
+$myTitle2Font: Homenaje;
+
+.header p {
+    font-family: $myMainFont;
+    color: $myColor; 
+    display: inline;
+}
+
+
+

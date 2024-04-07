@@ -11,6 +11,8 @@ import TravelandLodging from './Components/TravelandLodging'
 import WeddingParty from './Components/WeddingParty'
 import WeekAhead from './Components/WeekAhead'
 import Welcome from './Components/Welcome'
+import Footer from './Components/Footer'
+
 
 export default function App() {
   return (
@@ -26,6 +28,7 @@ export default function App() {
       <Route path= '/ThingsToDo' element={<ThingsToDo/>}/>
       <Route path= '/RSVPPage' element={<RSVPPage/>}/>
     </Routes>
+    <Footer/>
     </div>
   )
 }
