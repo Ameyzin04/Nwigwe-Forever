@@ -20,15 +20,15 @@ class Event(models.Model):
         return self.name
 
 class Guest(models.Model):
-    firstname = models.CharField(max_length=100)  
-    lastname = models.CharField(max_length=100)
-    email = models.EmailField() 
-    phone = models.IntegerField()
+    first_name = models.CharField(max_length=100)  
+    last_name = models.CharField(max_length=100)
+    email = models.EmailField(blank=True) 
+    phone = models.CharField(blank=True)
     # additional_guest: 
-    restriction = models.TextField(blank=True)
+    Dietary_restriction = models.TextField(blank=True)
     arrival_date = models.DateField()
 
     def __str__(self):
-        return self.name
+        return self.first_name
 
 
