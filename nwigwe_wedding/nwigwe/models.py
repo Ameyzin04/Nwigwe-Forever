@@ -23,7 +23,7 @@ class Guest(models.Model):
     last_name = models.CharField(max_length=100)
     email = models.EmailField(blank=True) 
     phone = models.CharField(blank=True)
-    Dietary_restriction = models.CharField(blank=True)
+    dietary_restriction = models.CharField(blank=True)
     arrival_date =  models.CharField(blank=True)
     access_level = models.CharField(max_length=100)
     additional_guest= models.CharField(max_length=100)

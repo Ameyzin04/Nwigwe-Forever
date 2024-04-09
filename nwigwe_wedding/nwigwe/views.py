@@ -1,36 +1,37 @@
 from rest_framework import generics
 from django.http import JsonResponse
+from rest_framework import serializers
 from .serializers import VenueSerializer, GuestSerializer, EventSerializer
 from .models import Guest
 from .models import Venue
 from .models import Event
 
         
-class Guest_info(generics.ListCreateAPIView):
-    queryset = Guests.objects.all()
-    serializer_class = GuestSerializerSerializer  
+class GuestInfo(generics.ListCreateAPIView):
+    queryset = Guest.objects.all()
+    serializer_class = GuestSerializer 
 
-class Guest_details(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Guests.objects.all()
-    serializer_class = LocationSerializer   
+class GuestDetails(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Guest.objects.all()
+    serializer_class = GuestSerializer   
 
 
-class Venue_info(generics.ListCreateAPIView):
+class VenueList(generics.ListCreateAPIView):
     queryset = Venue.objects.all()
     serializer_class = VenueSerializer    
 
-class Venue_details(generics.ListCreateAPIView):
+class VenueDetails(generics.RetrieveUpdateDestroyAPIView):
     queryset = Venue.objects.all()
     serializer_class = VenueSerializer    
 
 
-class Event_info(generics.ListCreateAPIView):
-    queryset = Venue.objects.all()
-    serializer_class = VenueSerializer    
+class EventInfo(generics.ListCreateAPIView):
+    queryset = Event.objects.all()
+    serializer_class = EventSerializer    
 
-class Event_details(generics.ListCreateAPIView):
-    queryset = Venue.objects.all()
-    serializer_class = VenueSerializer  
+class EventDetails(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Event.objects.all()
+    serializer_class = EventSerializer  
 
 
 
