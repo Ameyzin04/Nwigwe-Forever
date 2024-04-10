@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+.travelandlodging h1 {
+  font-family: homenaje;
+  font-size: 50px;
+  color: #7e4847;
+  text-align: center;
+  padding: 0px;
+}
+
+.travelandlodging h2 {
+  font-family: homenaje;
+  font-size: 44px;
+  color: #ffbd59;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+.travelandlodging h3 {
+  font-family: homenaje;
+  font-size: 44px;
+  color: #7e4847;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+.travelandlodging h4 {
+  margin: 5px;
+  padding: 10px;
+  font-family: Ibarra Real Nova;
+  color: #7e4847;
+  font-size: 20px;
+  text-align: center;
+}
+
+.travelandlodging p {
+  margin: 5px;
+  padding: 10px;
+  font-family: Ibarra Real Nova;
+  color: #7e4847;
+  font-size: 20px;
+}
+
+.travelandlodging ul {
+  margin: 0px 40px;
+  padding: 10px;
+  font-family: Ibarra Real Nova;
+  color: #7e4847;
+  font-size: 20px;
+}/*# sourceMappingURL=travelandlodging.css.map */

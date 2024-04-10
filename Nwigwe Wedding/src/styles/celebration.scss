@@ -2,7 +2,7 @@
 
 $myTitleFont: Tangerine;
 $myColor: #7e4847;
-$myTitleFontSize: 72px;
+$myTitleFontSize: 50px;
 $myBackgroud: url(../../images/Christian&Ameyo.svg);
 $myBackgroundColor: #fffdf5;
 $myMainFont: Ibarra Real Nova;
@@ -16,7 +16,7 @@ body {
 }
 
 .celebration h1 {
-    font-family: $myTitleFont;
+    font-family: Homenaje;
     font-size: $myTitleFontSize;
     color: $myColor;
     text-align: center;
@@ -36,9 +36,14 @@ body {
     font-size: 28px;
 }
 
-#button{
+#button1{
     position: center;
     background-color: #ffc37e;
-    margin: 50px 50px 50px 40%;
+    margin: 25px 50px 20px 40%;
+    font-family: $myMainFont;
+    font-size: 28px;
+    color: $myColor;
+    border-radius: 8px;
+    border: 1px solid #7e4847;
 
 }

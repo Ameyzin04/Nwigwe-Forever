@@ -8,8 +8,8 @@ body {
 }
 
 .celebration h1 {
-  font-family: Tangerine;
-  font-size: 72px;
+  font-family: Homenaje;
+  font-size: 50px;
   color: #7e4847;
   text-align: center;
 }
@@ -28,8 +28,13 @@ body {
   font-size: 28px;
 }
 
-#button {
+#button1 {
   position: center;
   background-color: #ffc37e;
-  margin: 50px 50px 50px 40%;
+  margin: 25px 50px 20px 40%;
+  font-family: Ibarra Real Nova;
+  font-size: 28px;
+  color: #7e4847;
+  border-radius: 8px;
+  border: 1px solid #7e4847;
 }/*# sourceMappingURL=celebration.css.map */

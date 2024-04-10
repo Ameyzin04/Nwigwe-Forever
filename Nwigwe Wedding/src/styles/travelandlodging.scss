@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+
+
+
+$myTitleFont: Tangerine;
+$myColor: #7e4847;
+$myTitleFontSize: 50px;
+$myBackgroud: url(../../images/Christian&Ameyo.svg),url(../../images/Footer.png);
+$myBackground: url(../../images/Footer.svg);
+$myBackgroundColor: #fffdf5;
+$myMainFont: Ibarra Real Nova;
+
+
+.travelandlodging h1{
+    font-family: homenaje;
+    font-size: $myTitleFontSize;
+    color: $myColor;
+    text-align: center;
+    padding: 0px;
+}
+
+.travelandlodging h2{
+    font-family: homenaje;
+    font-size: 44px;
+    color: #ffbd59;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.travelandlodging h3{
+    font-family: homenaje;
+    font-size: 44px;
+    color: $myColor;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.travelandlodging h4{
+    margin: 5px;
+    padding: 10px;
+    font-family: $myMainFont;
+    color: $myColor;
+    font-size: 20px;
+    text-align: center;
+}
+
+.travelandlodging p{
+    margin: 5px;
+    padding: 10px;
+    font-family: $myMainFont;
+    color: $myColor;
+    font-size: 20px;
+}
+
+.travelandlodging ul{
+    margin: 0px 40px;
+    padding: 10px;
+    font-family: $myMainFont;
+    color: $myColor;
+    font-size: 20px;
+}
+
+

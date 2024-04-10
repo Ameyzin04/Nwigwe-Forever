@@ -4,7 +4,7 @@
 
 $myTitleFont: Tangerine;
 $myColor: #7e4847;
-$myTitleFontSize: 36px;
+$myTitleFontSize: 50px;
 $myBackgroud: url(../../images/Christian&Ameyo.svg);
 $myBackgroundColor: #fffdf5;
 $myMainFont: Ibarra Real Nova;
@@ -14,6 +14,7 @@ $myTitle2Font: Homenaje;
     font-family: $myTitle2Font;
     text-align: center;
     color: $myColor;
+    font-size: $myTitleFontSize;
 }
 
 .weddingParty h3 {
