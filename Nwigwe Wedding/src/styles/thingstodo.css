@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+.things h1 {
+  font-family: homenaje;
+  font-size: 50px;
+  color: #7e4847;
+  text-align: center;
+  padding: 0px;
+}
+
+.things h4 {
+  margin: 5px;
+  padding: 10px;
+  font-family: Ibarra Real Nova;
+  color: #ffbd59;
+  font-size: 30px;
+  text-align: center;
+}
+
+.things p {
+  margin: 5px;
+  padding: 10px;
+  font-family: Ibarra Real Nova;
+  color: #7e4847;
+  font-size: 20px;
+}
+
+.things ul {
+  margin: 0px 40px 40px;
+  padding: 10px;
+  font-family: Ibarra Real Nova;
+  color: #7e4847;
+  font-size: 20px;
+}
+
+#gozem {
+  height: 100px;
+  margin: 0px 40px 20px 120px;
+}/*# sourceMappingURL=thingstodo.css.map */

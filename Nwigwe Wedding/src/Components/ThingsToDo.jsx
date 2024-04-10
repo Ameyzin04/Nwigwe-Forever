@@ -1,12 +1,18 @@
+import '../styles/thingstodo.css'
+import { IoRestaurantOutline } from "react-icons/io5";
+import { BiDrink } from "react-icons/bi";
+import { TbBeach } from "react-icons/tb";
+import { FaCarSide } from "react-icons/fa";
+
+
 export default function ThingsToDo () {
     return (
         <div className="things">
             <h1>Things To Do</h1>
-            <h3>Togo has lots to offer when it comes to food and entermaint.</h3>
+            <p>Togo has lots to offer when it comes to food and entertainment.</p>
 
         <div className="restaurants">
-            <img></img>
-            <h4>Restaurants</h4>
+            <h4><IoRestaurantOutline /> Restaurants</h4>
             <ul>
                 <li>La Table d'Ahoe</li>
                 <li>La Table du DJ</li>
@@ -21,8 +27,7 @@ export default function ThingsToDo () {
             </div>  
 
         <div className="nightLife">
-            <img></img>
-            <h4>Night Life</h4>
+            <h4><BiDrink /> Night Life</h4>
             <ul>
                 <li>Zanzibar</li>
                 <li>La Villa</li>
@@ -34,8 +39,7 @@ export default function ThingsToDo () {
             </div> 
 
         <div className="nightLife">
-            <img></img>
-            <h4>Beach Please</h4>
+            <h4><TbBeach /> Beach Please</h4>
             <ul>
                 <li>Blue Turtle Bay</li>
                 <li>Le Petit Brussel</li>
@@ -45,10 +49,9 @@ export default function ThingsToDo () {
             </div>  
 
         <div className="gettingaround">
-            <img></img>
-            <h4>Getting Around</h4>
+            <h4><FaCarSide /> Getting Around</h4>
             <p>The easiest way to get around is to download the Gozem application</p>
-            <img></img>
+            <img src="../../images/Gozem.png" id="gozem"/>
         </div>
 
         </div>

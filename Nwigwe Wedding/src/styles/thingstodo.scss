@@ -10,7 +10,7 @@ $myBackgroundColor: #fffdf5;
 $myMainFont: Ibarra Real Nova;
 
 
-.travelandlodging h1{
+.things h1{
     font-family: homenaje;
     font-size: $myTitleFontSize;
     color: $myColor;
@@ -18,34 +18,16 @@ $myMainFont: Ibarra Real Nova;
     padding: 0px;
 }
 
-.travelandlodging h2{
-    font-family: homenaje;
-    font-size: 44px;
+.things h4{
+    margin: 5px;
+    padding: 10px;
+    font-family: $myMainFont;
     color: #ffbd59;
-    text-align: center;
-    padding: 0px;
-    margin-bottom: 5px;
-}
-
-.travelandlodging h3{
-    font-family: homenaje;
-    font-size: 44px;
-    color: $myColor;
-    text-align: center;
-    padding: 0px;
-    margin-bottom: 5px;
-}
-
-.travelandlodging h4{
-    margin: 5px;
-    padding: 10px;
-    font-family: $myMainFont;
-    color: $myColor;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
-.travelandlodging p{
+.things p{
     margin: 5px;
     padding: 10px;
     font-family: $myMainFont;
@@ -53,12 +35,17 @@ $myMainFont: Ibarra Real Nova;
     font-size: 20px;
 }
 
-.travelandlodging ul{
-    margin: 0px 40px;
+.things ul{
+    margin: 0px 40px 40px;
     padding: 10px;
     font-family: $myMainFont;
     color: $myColor;
     font-size: 20px;
+}
+
+#gozem{
+    height: 100px;
+    margin: 0px 40px 20px 120px;
 }
 
 
