@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Homenaje&family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Tangerine:wght@400;700&display=swap");
+
+$myColor: #7e4847;
+$myTitleFontSize: 36px;
+$myBackground: url(../../images/Footer.svg);
+$myMainFont: Ibarra Real Nova;
+$myTitle2Font: Homenaje;
+
+.message p{
+    font-family: $myMainFont;
+    color: $myColor; 
+    text-align: center;
+    font-size: 20px;  
+};
+
+.message {
+    background-image: $myBackground;
+
+}

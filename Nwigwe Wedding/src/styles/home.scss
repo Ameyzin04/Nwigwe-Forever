@@ -4,13 +4,14 @@
 $myTitleFont: Tangerine;
 $myColor: #7e4847;
 $myTitleFontSize: 36px;
-$myBackgroud: url(../../images/Christian&Ameyo.svg);
+$myBackgroud: url(../../images/Christian&Ameyo.svg), ;
+$myBackground: url(../../images/Footer.svg);
 $myBackgroundColor: #fffdf5;
 $myMainFont: Ibarra Real Nova;
 
 
 body {
-    background: $myBackgroud;
+    background-image: url(../../images/Christian&Ameyo.svg), url(../../images/Footer.svg);
     background-size: 400px;
     background-repeat: no-repeat;
     background-color: $myBackgroundColor;

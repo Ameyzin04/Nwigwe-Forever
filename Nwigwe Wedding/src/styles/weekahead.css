@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+body {
+  background: url(../../images/Christian&Ameyo.svg);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-color: #fffdf5;
+  margin: 5px;
+}
+
+.weekAhead h1 {
+  font-family: Tangerine;
+  font-size: 72px;
+  color: #7e4847;
+  text-align: center;
+}
+
+.weekAhead h2 {
+  font-family: Ibarra Real Nova;
+  color: #ffbd59;
+  text-align: center;
+}
+
+.weekAhead h3 {
+  font-family: Ibarra Real Nova;
+  color: #7e4847;
+  font-size: 30px;
+  margin-bottom: 0%;
+}
+
+.weekAhead p {
+  font-family: Ibarra Real Nova;
+  color: #7e4847;
+  font-size: 26px;
+  padding: 0%;
+  margin: 0%;
+}/*# sourceMappingURL=weekahead.css.map */
