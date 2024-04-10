@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+
+$myTitleFont: Tangerine;
+$myColor: #7e4847;
+$myTitleFontSize: 72px;
+$myBackgroud: url(../../images/Christian&Ameyo.svg);
+$myBackgroundColor: #fffdf5;
+$myMainFont: Ibarra Real Nova;
+
+body {
+    background: $myBackgroud;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-color: $myBackgroundColor;
+    margin: 5px;
+}
+
+.celebration h1 {
+    font-family: $myTitleFont;
+    font-size: $myTitleFontSize;
+    color: $myColor;
+    text-align: center;
+}
+
+.celebration h2 {
+    font-family: $myMainFont;
+    color: $myColor;
+    text-align: center;
+    margin: 0%;
+}
+
+.celebration h3 {
+    font-family: $myMainFont;
+    color: $myColor;
+    text-align: center;
+    font-size: 28px;
+}
+
+#button{
+    position: center;
+    background-color: #ffc37e;
+    margin: 50px 50px 50px 40%;
+
+}
