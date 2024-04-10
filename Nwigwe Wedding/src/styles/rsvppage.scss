@@ -10,7 +10,7 @@ $myBackgroundColor: #fffdf5;
 $myMainFont: Ibarra Real Nova;
 
 
-.things h1{
+.rsvp h1{
     font-family: homenaje;
     font-size: $myTitleFontSize;
     color: $myColor;
@@ -18,35 +18,42 @@ $myMainFont: Ibarra Real Nova;
     padding: 0px;
 }
 
-.things h4{
-    margin: 0px 5px;
+.rsvp p{
+    margin: 5px;
     padding: 10px;
     font-family: $myMainFont;
-    color: #ffbd59;
-    font-size: 30px;
+    color: $myColor;
+    font-size: 20px;
     text-align: center;
 }
 
-.things p{
-    margin: 0px 5px;
+.rsvpinstruction {
+    margin: 5px;
     padding: 10px;
     font-family: $myMainFont;
     color: $myColor;
     font-size: 20px;
-}
-
-.things ul{
-    margin: 0px 40px 40px;
-    padding: 10px;
-    font-family: $myMainFont;
-    color: $myColor;
-    font-size: 20px;
-}
-
-#gozem{
-    height: 100px;
-    margin: 10px 40px 20px 120px;
+    background-color: #ffc37e;
     border-radius: 20px;
+    height: 350px;
 }
 
+#box {
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px ;
+    border: 1px solid #7e4847;
+    margin: 40px 0px 30px 20px
+}
 
+#button2 {
+    background-color: black;
+    color: white;
+    font-family: $myMainFont;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-left: 30%;
+}

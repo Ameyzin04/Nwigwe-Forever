@@ -8,7 +8,7 @@
 }
 
 .things h4 {
-  margin: 5px;
+  margin: 0px 5px;
   padding: 10px;
   font-family: Ibarra Real Nova;
   color: #ffbd59;
@@ -17,7 +17,7 @@
 }
 
 .things p {
-  margin: 5px;
+  margin: 0px 5px;
   padding: 10px;
   font-family: Ibarra Real Nova;
   color: #7e4847;
@@ -34,5 +34,6 @@
 
 #gozem {
   height: 100px;
-  margin: 0px 40px 20px 120px;
+  margin: 10px 40px 20px 120px;
+  border-radius: 20px;
 }/*# sourceMappingURL=thingstodo.css.map */

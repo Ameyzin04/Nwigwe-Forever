@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+.rsvp h1 {
+  font-family: homenaje;
+  font-size: 50px;
+  color: #7e4847;
+  text-align: center;
+  padding: 0px;
+}
+
+.rsvp p {
+  margin: 5px;
+  padding: 10px;
+  font-family: Ibarra Real Nova;
+  color: #7e4847;
+  font-size: 20px;
+  text-align: center;
+}
+
+.rsvpinstruction {
+  margin: 5px;
+  padding: 10px;
+  font-family: Ibarra Real Nova;
+  color: #7e4847;
+  font-size: 20px;
+  background-color: #ffc37e;
+  border-radius: 20px;
+  height: 350px;
+}
+
+#box {
+  height: 30px;
+  width: 300px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #7e4847;
+  margin: 40px 0px 30px 20px;
+}
+
+#button2 {
+  background-color: black;
+  color: white;
+  font-family: Ibarra Real Nova;
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin-left: 30%;
+}/*# sourceMappingURL=rsvppage.css.map */

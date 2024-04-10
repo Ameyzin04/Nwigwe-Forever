@@ -12,6 +12,8 @@ import WeddingParty from './Components/WeddingParty'
 import WeekAhead from './Components/WeekAhead'
 import Welcome from './Components/Welcome'
 import Footer from './Components/Footer'
+import RSVPForm from './Components/RSVPForm'
+
 
 
 export default function App() {
@@ -27,6 +29,7 @@ export default function App() {
       <Route path= '/TravelandLodging' element={<TravelandLodging/>}/>
       <Route path= '/ThingsToDo' element={<ThingsToDo/>}/>
       <Route path= '/RSVPPage' element={<RSVPPage/>}/>
+      <Route path= '/RSVPForm' element={<RSVPForm/>}/>
     </Routes>
     <Footer/>
     </div>

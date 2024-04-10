@@ -1,5 +1,5 @@
 import '../styles/travelandlodging.css'
-import { MdOutlineHotel } from "react-icons/md";
+import { IoBedOutline } from "react-icons/io5";
 import { GiCommercialAirplane } from "react-icons/gi";
 
 
@@ -8,7 +8,7 @@ export default function TravelandLodging () {
     return (
         <div className="travelandlodging">
             <h1>Travel and Lodging</h1>
-            <h2><MdOutlineHotel/> Lodging</h2>
+            <h2><IoBedOutline/> Lodging</h2>
             <p>We recommend that our guests stay in one of the following hotels:</p>
             <h3>Hôtel Mercure Sarakawa</h3>
             <p>This is the hotel where the reception will take place. The link should take you directly to the discouted room rate. But just in case, the group code is NWIGWE. The cutoff date to book at this rate is November 10,2025</p>
