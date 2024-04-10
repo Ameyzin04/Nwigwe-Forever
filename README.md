@@ -46,4 +46,6 @@ On this page, guests will be to RSVP.
 * https://www.youtube.com/watch?v=_kqN4hl9bGc&list=PL4cUxeGkcC9jxJX7vojNVK-o8ubDZEcNb&index=1
 * https://sass-lang.com/guide/
 * https://github.com/AbeGue02/tick-it/tree/main/back-end
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
 * Chat GPT
+

@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { useState } from 'react'
 
 import './styles/index.css'
 
@@ -17,6 +18,9 @@ import RSVPForm from './Components/RSVPForm'
 
 
 export default function App() {
+
+  const [invited , setInvited] = useState()
+
   return (
     <div>
     <Header/>
@@ -28,8 +32,8 @@ export default function App() {
       <Route path= '/WeddingParty' element={<WeddingParty/>}/>
       <Route path= '/TravelandLodging' element={<TravelandLodging/>}/>
       <Route path= '/ThingsToDo' element={<ThingsToDo/>}/>
-      <Route path= '/RSVPPage' element={<RSVPPage/>}/>
-      <Route path= '/RSVPForm' element={<RSVPForm/>}/>
+      <Route path= '/RSVPPage' element={<RSVPPage invited={invited} setInvited={setInvited}/> }/>
+      <Route path= '/RSVPForm/' element={<RSVPForm invited={invited} setInvited={setInvited}/>}/>
     </Routes>
     <Footer/>
     </div>
