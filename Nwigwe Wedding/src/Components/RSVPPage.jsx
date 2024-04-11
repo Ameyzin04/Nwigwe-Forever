@@ -5,7 +5,7 @@ import axios from 'axios'
 import '../styles/rsvppage.css'
 
 
-export default function RSVP () {
+export default function RSVP ({setInvited}) {
    
     let navigate = useNavigate()
     const [guests , setGuests] = useState("")
@@ -33,8 +33,10 @@ getGuests()
             setGuestName(formName)
             console.log(guestName)
             const found = guests.find((guest) => guest.first_name === e.target.name.value)   
+            setInvited(found)
 
             console.log(found)
+
 
             navigate ('/RSVPForm')
         };

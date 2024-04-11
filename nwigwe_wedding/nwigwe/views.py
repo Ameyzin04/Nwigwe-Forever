@@ -13,7 +13,7 @@ class GuestInfo(generics.ListCreateAPIView):
 
 class GuestDetails(generics.RetrieveUpdateDestroyAPIView):
     queryset = Guest.objects.all()
-    serializer_class = GuestSerializer   
+    serializer_class = GuestSerializer  
 
 
 class VenueList(generics.ListCreateAPIView):

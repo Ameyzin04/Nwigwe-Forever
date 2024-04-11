@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+.top h1 {
+  font-family: homenaje;
+  font-size: 50px;
+  color: #7e4847;
+  text-align: center;
+  padding: 0px;
+}
+
+.top h2 {
+  margin: 0px 5px;
+  padding: 10px;
+  font-family: Ibarra Real Nova;
+  color: #ffbd59;
+  font-size: 30px;
+  text-align: center;
+}
+
+.form {
+  width: 80%;
+  margin: 25px;
+  font-size: 24px;
+  color: #7e4847;
+}
+
+.form h3 {
+  margin: 0px 20px;
+  padding: 10px;
+  font-family: Ibarra Real Nova;
+  color: #7e4847;
+  font-size: 26px;
+}
+
+.form input {
+  width: 100%;
+  display: inline-block;
+}
+
+#checked {
+  color: #7e4847;
+}
+
+#button2 {
+  background-color: black;
+  color: white;
+  font-family: Ibarra Real Nova;
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin-left: 30%;
+}/*# sourceMappingURL=rsvpform.css.map */
